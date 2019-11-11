@@ -20,14 +20,14 @@
 <h2>3. Gérer les événements</h2>
 <div id="hover-arial">Ce texte doit être en police Arial quand la souris le survole</div>
 <h2>4. Détruire / Ajouter des éléments</h2>
-<div>
+<div id="background-green">
     Cette div devient un gros 'YES' en blanc sur fond vert quand les deux checkboxes dessous sont cochées.<br>
-    <input type="checkbox"></input><input type="checkbox"></input>
+    <input type="checkbox" id="checkbox1"><input type="checkbox" id="checkbox2">
 </div>
 <h2>5. Détruire / Ajouter des éléments</h2>
 <div>
-    Quand on clique sur ce texte, ça détruit
-    <div>cette div</div>
+    <span id="text-destroy-div">Quand on clique sur ce texte, ça détruit</span>
+    <div id="div-destroy">cette div</div>
 </div>
 <h2>6. Gérer la valeur d'un élément du DOM</h2>
 <div>
@@ -80,7 +80,8 @@
     <button>Prêt</button>
     <button>Partez</button><br>
     <img src="../Images/empty.png">
-    <script src="../JavaScript/CSS.js"></script>
+    <script src="../JavaScript/CSS.js" type="text/javascript"></script>
+    <script src="../JavaScript/AddDeleteModify.js" type="text/javascript"></script>
 </div>
 </body>
 </html>
