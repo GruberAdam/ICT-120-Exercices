@@ -10,7 +10,8 @@ function strikeThroughBlueFont() {
 firstDiv.addEventListener("click",strikeThroughBlueFont); //Check if div is getting clicked
 //It puts the first div back to normal
 function putTextNormal() {
-    firstDiv.backgroundColor = 'white';
-    firstDiv.textDecoration = ''
+    console.log("Second div clicked");
+    firstDiv.style.backgroundColor = 'white';
+    firstDiv.style.textDecoration = 'none';
 }
 secondDiv.addEventListener('click',putTextNormal);
